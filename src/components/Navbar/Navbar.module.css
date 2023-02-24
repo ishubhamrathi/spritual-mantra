@@ -1,0 +1,16 @@
+.container{
+    background-color: #a04e4e;
+    background-image: url("../../assessts/pattern-chakras-white.png");
+    background-repeat: repeat;
+    /* object-fit:contain; */
+    /* border-radius: 20px; */
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    color: white;
+    font-weight: 700;
+}
