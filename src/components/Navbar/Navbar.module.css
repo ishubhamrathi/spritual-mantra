@@ -14,3 +14,24 @@
     color: white;
     font-weight: 700;
 }
+.menuitem{
+    font-size: 35px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.signoff{
+    display: flex;
+
+    align-items: center;
+    margin-right: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.signoffbtn{
+    width: 100%;
+    color: #a04e4e;
+    font-weight: 600;
+}

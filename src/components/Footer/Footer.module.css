@@ -1,0 +1,12 @@
+.container{
+    background: #55452f;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.text{
+    color: #a58251;
+    line-height: 1px;
+}
