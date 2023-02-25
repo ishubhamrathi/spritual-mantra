@@ -32,7 +32,7 @@ const Tiles = () =>{
                     <div className={styles.item3}>
                         
                     <span className={styles.text}>
-                            SCRIPTURES QUOTES
+                            QUOTES
                         </span>
                         
                     </div>

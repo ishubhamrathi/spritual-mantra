@@ -29,18 +29,3 @@
     color: #a58251;
     margin: 8px;
 }
-.text{
-    text-align: center;
-    line-height: 25px;
-    font-size: 18px;
-    padding: 50px;
-    /* padding-right: 50px; */
-    /* padding-left: 50px; */
-}
-
-@media only screen and (max-width: 400px){
-    .text{
-        line-height: 24px;
-        padding: 25px;
-    }
-}

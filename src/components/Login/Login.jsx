@@ -39,7 +39,7 @@ function Login() {
     <div className={styles.container}>
       <div className={styles.innerBox}>
         <h1 className={styles.heading}>Login</h1>
-
+        <small>refresh incase not working</small>
         <InputControl
           label="Email"
           onChange={(event) =>

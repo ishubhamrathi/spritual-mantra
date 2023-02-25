@@ -19,7 +19,7 @@
     margin-bottom: 20px;
 }
 .leftwrapper{
-    width: 50%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,6 +43,7 @@
     /* width: 100%; */
     height: 90%;
     opacity: 0.6;
+    overflow: hidden;
     background: url("../../assessts/chakra.svg") no-repeat center;
 }
 
@@ -50,9 +51,56 @@
     font-size: 60px;
     font-weight: 700;
     color: rgb(56, 56, 56);
-    line-height: 15px;
+    line-height: 50px;
 }
 .name{
     color: #a04e4e;
     font-weight: 800;
+}
+
+
+
+@media only screen and (max-width: 1200px){
+    .text{
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .text{
+        font-size: 30px;
+        transition: ease-in;
+    }
+    
+.wrapper{
+    height: 600px;
+
+    flex-direction: column;
+}
+.leftwrapper{
+    width: 100%;
+    height: 200px;
+    margin-top: 80px;
+}
+.rightwrapper{
+    width: 100%;
+    height: 70%;
+    
+}
+
+}
+
+@media only screen and (max-width: 400px){
+    .text{
+        line-height: 30px;
+        margin-bottom: -20px;
+    }
+    
+}
+@media only screen and (max-width: 900px){
+    .text{
+        line-height: 30px;
+        margin-bottom: -20px;
+    }
+    
 }

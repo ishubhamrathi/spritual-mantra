@@ -6,7 +6,7 @@ import Contact from "../Contact/Contact";
 import About from "../About/About";
 import Mantra from "../Mantra/Mantra";
 import Meditation from "../Meditation/Meditation";
-import Scriptures from "../Scriptures/Scriptures";
+import Quotes from "../Quotes/Quotes";
 import Spirit from "../Spirit/Spirit";
 import Health from "../Health/Health";
 
@@ -23,7 +23,7 @@ const Dashboard = (props) =>{
         {/* <Mantra/> */}
         {menu==1 ? <Mantra/> : <div></div>}
         {menu==2 ? <Meditation/> : <div></div>}
-        {menu==3 ? <Scriptures/> : <div></div>}
+        {menu==3 ? <Quotes/> : <div></div>}
         {menu==4 ? <Spirit/> : <div></div>}
         {menu==5 ? <Health/> : <div></div>}
 
